@@ -4,5 +4,4 @@ namespace App\Http\Controllers;
 
 class HomeController extends Controller
 {
-    public function hello(){}
-}
+    public function hello(){}}
