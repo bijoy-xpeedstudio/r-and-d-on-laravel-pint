@@ -1,0 +1,16 @@
+#!/bin/sh
+commit_message=$(git log -1 --pretty=format:%s)
+
+# Check the operating system
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
+  # Windows
+exec php vendor/bin/pint 
+else
+  # Unix-like (Linux and macOS)
+  ./vendor/bin/pint && git add . && echo "Commit Message: $commit_message"
+fi
+echo "ijoin"
+# Add changes to the staging area (git add)
+git add .
+
+git commit -m "$commit_message"
