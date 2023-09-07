@@ -24,8 +24,13 @@ done
 
 # Check if required options are provided
 if [ -z "$commit_message" ] || [ -z "$branch_name" ]; then
-    echo "Usage: ./my_script.sh --commit 'Your commit message' --branch 'BranchName'"
+    echo "Usage: ./git.sh --commit 'Your commit message' --branch 'BranchName'"
     exit 1
+fi
+# Check if laravel/pint is installed
+if ! composer show laravel/pint &> /dev/null; then
+    # laravel/pint is not installed, so require it
+    composer require laravel/pint --dev
 fi
 
 # Execute pint command
@@ -39,8 +44,3 @@ git commit -m "$commit_message"
 
 # Push to the specified branch
 git push origin -u "$branch_name"
-
-
-
-
-
