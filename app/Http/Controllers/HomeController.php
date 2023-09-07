@@ -4,8 +4,4 @@ namespace App\Http\Controllers;
 
 class HomeController extends Controller
 {
-    public function hello()
-    {
-        echo "asdfasdf";
-    }
-}
+    public function hello(){echo "asdfdsdfsdfsdfsdfdasdf";}}
