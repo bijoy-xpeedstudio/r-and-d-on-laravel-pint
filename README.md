@@ -40,7 +40,7 @@
 
 ### Install husky
 
-> You have to install husky as npm package. The official link are https://typicode.github.io/husky/.
+> At first of all you have to install node.js in your device to rum npm command. Then you have to install husky as npm package. The official link are https://typicode.github.io/husky/.
 
     npx husky-init && npm install
 
