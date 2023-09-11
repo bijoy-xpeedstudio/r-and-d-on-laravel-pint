@@ -1,5 +1,6 @@
 #!/bin/sh
 # Don't panic with this file it was created for take git pre-commit hook by using laravel pint. 
+# This File comes form .git/hooks to larvel root directory
 # its putted here as backup
 
 
