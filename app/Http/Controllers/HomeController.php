@@ -6,6 +6,10 @@ class HomeController extends Controller
 {
     public function hello()
     {
-        echo "ddertewtret";
+        echo 'dddddddasdfsafsadfsddddddddddddddddddddddddddddfdasdddddddddddddddd';
+    }
+    public function asdfs()
+    {
+        echo 'dddddddasdfsafsadfsddddddddddddddddddddddddddddfdasdddddddddddddddd';
     }
 }
