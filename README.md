@@ -1,4 +1,4 @@
-
+> The goal was for this r&d to use out custom coding style in our code and if code's are not meet rules then show error or suggestion where need to change to user.
 ### Install pint command
 
 > [Laravel Pint](https://github.com/laravel/pint) is an opinionated PHP code style fixer for minimalists. Pint is built on top of PHP-CS-Fixer and makes it simple to ensure that your code style stays clean and consistent.
