@@ -11,5 +11,7 @@ class HomeController extends Controller
     public function asdfs()
     {
         echo 'dddddddasdfsafsadfsddddddddddddddddddddddddddddfdasdddddddddddddddd';
+        $array = ['helllo', 'world'];
+        $a = isset($a, $b);
     }
 }

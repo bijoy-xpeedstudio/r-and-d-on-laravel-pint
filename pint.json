@@ -8,6 +8,8 @@
             "named_class": false
         },
         "clean_namespace": true,
-        "class_attributes_separation": false
+        "class_attributes_separation": false,
+        "array_syntax": true,
+        "combine_consecutive_issets": true
     }
 }
