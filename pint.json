@@ -10,6 +10,14 @@
         "clean_namespace": true,
         "class_attributes_separation": false,
         "array_syntax": true,
-        "combine_consecutive_issets": true
+        "combine_consecutive_issets": true,
+        "no_multiline_whitespace_around_double_arrow": true,
+        "blank_lines_before_namespace": true,
+        "single_space_around_construct": true,
+        "blank_line_before_statement": {
+            "statements": [
+                "if"
+            ]
+        }
     }
 }
